@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Enriqueta:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
 
-.logo {
-	font-family: 'Eagle Lake', cursive;
-}
-
-nav {
+.header {
 	width: 100%;
 	position: sticky;
 	z-index: 10;
@@ -13,22 +9,41 @@ nav {
 	padding: 1.2em 0;
 	color: white;
 	background-color: black;
-	max-height: 4em;
-	font-family: 'Enriqueta', serif;
+	max-height: 5em;
+	display: flex;
+	align-items: center;
+}
+
+.center-logo {
+	display: flex;
+  	justify-content: center;
+	width: 22%;
+}
+
+.logo {
+	font-family: 'Eagle Lake', cursive;
+	color: white;
+	font-size: 38px;
+}
+
+nav {
+	/* width: 100%; */
+	top: 0;
+	color: white;
+	display: flex;
+  	justify-content: center;
+	align-items: center;
 }
 
 nav span {
-	font-size: 18px;
-	border-bottom: 1px solid transparent;
-	transition: border-bottom 0.2s ease;
-	transition-delay: 0.25s;
-	margin: 1em;
-	padding-bottom: 0.3em;
+	font-size: 22px;
+	transition: 0.2s ease;
+	margin: 1em 2em;
+	font-family: 'Enriqueta', serif;
 }
 
 nav span:hover {
 	cursor: pointer;
-	border-bottom: 1px solid white;
 }
 
 nav span:hover i {

@@ -5,11 +5,16 @@ import './Nav.css';
 
 const Nav = () => {
 	return (
-		<nav>
-			{navLinks.map(({ navLinkId, scrollToId }, idx) => (
-				<NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} />
-			))}
-		</nav>
+		<div className='header'>
+		<div className='center-logo'>
+			<div className='logo'>Brazilla</div>
+		</div>
+			<nav>
+				{navLinks.map(({ navLinkId, scrollToId }, idx) => (
+						<NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} />
+					))}
+			</nav>
+		</div>
 	);
 };
 
