@@ -1,5 +1,4 @@
 import React from 'react';
-import './Main.css';
 import CoffeeMaking from '../media/coffee-making.jpg';
 
 const Image = () => {

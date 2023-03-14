@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNav } from '../customHooks/useNav';
-import './Main.css';
 import Bean from '../media/bean.png';
 import BlackCoffee from '../media/black-coffee.jpg';
 

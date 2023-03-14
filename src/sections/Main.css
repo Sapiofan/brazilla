@@ -10,6 +10,7 @@ section {
 
 #coffeeMakingContainer {
 	display: flex;
+	height: auto;
 }
 
 .coffee-making-pic-container {
