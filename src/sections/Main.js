@@ -1,8 +1,9 @@
 import React from 'react';
-import { Discounts, Offers, About, Stories, Contact } from './';
+import { Image, Discounts, Offers, About, Stories, Contact } from './';
 
 const Main = () => (
 	<main>
+		<Image />
 		<Discounts />
 		<Offers />
 		<About />

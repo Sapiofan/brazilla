@@ -4,3 +4,4 @@ export { default as Main } from './Main';
 export { default as Discounts } from './Discounts';
 export { default as Offers } from './Offers';
 export { default as Stories } from './Stories';
+export { default as Image } from './Image';

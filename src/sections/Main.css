@@ -1,32 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
 section {
-	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	width: 100%;
-	border-bottom: 1px solid lightgrey;
-}
-
-section:nth-child(even) {
-	flex-direction: row-reverse;
-}
-
-section img,
-section div {
-	height: auto;
+	height: 80vh;
 	width: 100%;
 }
 
-section img {
-	width: 50%;
-}
-
-section div {
+#coffeeMakingContainer {
 	display: flex;
-	flex-direction: column;
+}
+
+.coffee-making-pic-container {
+	position: relative;
+	width: 100%;
+	/* height: 100%; */
+}
+
+.coffee-making-pic {
+	width: 100%;
+	height: 100%;
+	filter: brightness(50%);
+}
+
+.model-pic {
+	position: absolute;
+	bottom: 5%;
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+
+.model-pic h3 {
+	font-weight: 400;
+	text-align: center;
+}
+
+.model-pic a {
+	text-decoration: none;
+	color: #DFC222;
+}
+
+#aboutContainer {
+	position: relative;
+}
+
+
+.sun {
+	height: 40vh;
+  	width: 40vh;
+	background-color: #DFC222;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 2;
+	top: 10%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 38px;
+	font-family: 'Inknut Antiqua', serif;
+}
+
+.gold-text {
+	color: #DFC222;
+	font-family: 'Inknut Antiqua', serif;
+}
+
+.bean {
+	position: absolute;
+	width: 3vw;
+}
+
+.bean img {
+	width: 100%;
+}
+
+.about-part {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.about-pic-container {
+	width: 50%;
 	align-items: center;
-	justify-content: flex-start;
-	padding: 1em;
+	justify-content: center;
+	display: flex;
+	margin: 10px 100px;
+	z-index: 3;
+}
+
+.about-pic-container img, .story-img img {
+	width: 100%;
+}
+
+.text-part {
+	width: 50%;
+	margin-top: 150px;
+	margin-right: 50px;
+	font-size: 20px;
+}
+
+.stories {
+	display: flex;
+	justify-content: center;
+}
+
+.story {
+	width: 20vw;
+	position: relative;
+	margin: 20px 80px;
+}
+
+.story-img {
+	width: 100%;
+}
+
+.story h3 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.story p {
+	margin-bottom: 40px;
+}
+
+.story button {
+	background-color: transparent;
+	border: 2px solid #DFC222;
+	border-radius: 6px;
+	color: #DFC222;
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	transition: .3s;
+}
+
+.story button:hover {
+	cursor: pointer;
+	background-color: #DFC222;
+	color: black;
 }
 
 @media screen and (max-width: 900px) {
