@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Discounts, Offers, About, Stories, Contact } from './';
+import { Image, Discounts, Offers, About, Stories, Event, Contact } from './';
 
 const Main = () => (
 	<main>
@@ -8,6 +8,7 @@ const Main = () => (
 		<Offers />
 		<About />
         <Stories />
+		<Event />
         <Contact />
 	</main>
 );

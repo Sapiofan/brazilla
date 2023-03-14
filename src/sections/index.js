@@ -5,3 +5,4 @@ export { default as Discounts } from './Discounts';
 export { default as Offers } from './Offers';
 export { default as Stories } from './Stories';
 export { default as Image } from './Image';
+export { default as Event } from './Event';

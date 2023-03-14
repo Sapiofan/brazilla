@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 
 section {
 	align-items: center;
@@ -67,6 +68,14 @@ h1 {
 	font-family: 'Inknut Antiqua', serif;
 }
 
+.gold {
+	color: #DFC222;
+}
+
+.aladin {
+	font-family: 'Aladin', cursive;
+}
+
 .bean {
 	position: absolute;
 	width: 3vw;
@@ -91,7 +100,7 @@ h1 {
 	z-index: 3;
 }
 
-.about-pic-container img, .story-img img {
+.about-pic-container img, .story-img img, .smoke-img img, .beverage img, .event-pic-container img {
 	width: 100%;
 }
 
@@ -100,6 +109,11 @@ h1 {
 	margin-top: 150px;
 	margin-right: 50px;
 	font-size: 20px;
+}
+
+#storiesContainer {
+	position: relative;
+	height: auto;
 }
 
 .stories {
@@ -128,23 +142,90 @@ h1 {
 	margin-bottom: 40px;
 }
 
-.story button {
+.golden-button {
 	background-color: transparent;
 	border: 2px solid #DFC222;
 	border-radius: 6px;
 	color: #DFC222;
 	height: 30px;
-	width: 100px;
-	position: absolute;
-	right: 0;
 	font-size: 20px;
 	transition: .3s;
 }
 
-.story button:hover {
+.golden-button:hover {
 	cursor: pointer;
 	background-color: #DFC222;
 	color: black;
+}
+
+.story button {
+	width: 100px;
+	position: absolute;
+	right: 0;
+}
+
+.center-view-button {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.smoke-img {
+	width: 70px;
+}
+
+.smoke-container {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.stories-button {
+	width: 200px;
+	margin-top: 5px;
+}
+
+#eventContainer {
+	display: flex;
+	position: relative;
+}
+
+.beverage {
+	width: 30vh;
+	position: absolute;
+}
+
+.event-part {
+	display: flex;
+	justify-content: center;
+}
+
+.text-part-event {
+	font-size: 20px;
+	margin: 20px 50px;
+}
+
+.text-part-event h4 {
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.text-part-event p {
+	margin-bottom: 5px;
+}
+
+.labels {
+	font-size: 20px;
+}
+
+.event-pic-container {
+	width: 18%;
+}
+
+.details {
+	margin: 50px 0;
+	width: 130px;
+	height: 35px;
 }
 
 @media screen and (max-width: 900px) {

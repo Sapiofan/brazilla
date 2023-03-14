@@ -6,7 +6,8 @@ const NavLink = ({ navLinkId, scrollToId }) => {
 
 	const handleClick = () => {
 		setActiveNavLinkId(navLinkId);
-		document.getElementById(scrollToId).scrollIntoView({ behavior: 'smooth' });
+		const y = document.getElementById(scrollToId).getBoundingClientRect().top + window.pageYOffset - 60;
+		window.scrollTo({top: y, behavior: 'smooth'});
 	};
 
 	return (

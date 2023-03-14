@@ -10,7 +10,7 @@ const Story = () => {
             <h3>Header of the coffee-story</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Donec dictum ipsum quis risus euismod varius. Donec faucibus placerat turpis eu dictum.</p>
-            <button className='story-button'>Read</button>
+            <button className='golden-button story-button'>Read</button>
 		</div>
 	);
 };
